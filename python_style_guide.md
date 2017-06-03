@@ -304,7 +304,7 @@ class AmericanToBritish(AmericanToColonial):
 ### Function comments
 
 Every function declaration should have comments immediately after the definition
-such that it describeis what the function does and how to use it. These comments
+such that it describes what the function does and how to use it. These comments
 should be descriptive ("Opens the file") rather than imperative ("Open the file");
 the comment describes the function, it does not tell the function what to do. In
 general, these comments do not describe how the function performs its task.
@@ -807,7 +807,7 @@ enclosing block. Rewrite these with the positive case first.
     ]
 
     # good
-    map = {
+    foo_map = {
         'foo': 'bar',
         'bar': 'foo',
     }
